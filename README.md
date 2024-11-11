@@ -1,5 +1,4 @@
 Name: Arshabrata Bhaumik  
 Registration Number: 230953166  
-This repository contains the solutions to the Linux Luminarium problems on the website pwn.college.  
-URL: https://pwn.college/linux-luminarium/
-![s16035510192024](https://a.okmd.dev/md/67138b144947c.png)
+Branch : Computer and Communication Engineering  
+This repository contains all the work done by me as a member of the Cryptonite Senior Taskphase.
