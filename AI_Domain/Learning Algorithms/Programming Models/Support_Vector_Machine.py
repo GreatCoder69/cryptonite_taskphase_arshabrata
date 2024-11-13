@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-data = pd.read_csv(r"Sample_Datasets\svm_dataset.csv")
+data = pd.read_csv(r"Sample_Datasets\svm_linear_dataset.csv")
 X = data[['x1', 'x2']].values
 Y = data['label'].values
 for i in range(len(X)):

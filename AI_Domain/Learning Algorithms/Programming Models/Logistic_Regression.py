@@ -25,13 +25,9 @@ def predict_purchase(age):
     z = weights[0] + weights[1] * age
     probability = sigmoid(z)
     return probability, 1 if probability >= 0.5 else 0
-user_age = float(input("Enter age: "))
+user_age = 32 # User input
 probability, purchase_prediction = predict_purchase(user_age)
 print(f"Predicted probability of purchase: {probability:.2f}")
-if purchase_prediction == 1:
-    print("The model predicts that this person has purchased.")
-else:
-    print("The model predicts that this person has not purchased.")
 plt.figure(figsize=(10, 6))
 plt.scatter(x, y, color='blue', label='Data Points')
 plt.plot(x, sigmoid(np.dot(X, weights)), color='red', label='Logistic Regression Fit')
